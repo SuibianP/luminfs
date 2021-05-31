@@ -1,0 +1,31 @@
+{
+  "name": "luminfs",
+  "version": "0.1.0",
+  "description": "FUSE implementation of LumiNUS",
+  "main": "luminfs.ts",
+  "scripts": {
+    "start": "ts-node luminfs.ts",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuibianP/luminfs.git"
+  },
+  "keywords": [
+    "luminus",
+    "FUSE"
+  ],
+  "author": "Hu Jialun",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SuibianP/luminfs/issues"
+  },
+  "homepage": "https://github.com/SuibianP/luminfs#readme",
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "ts-mocha": "^8.0.0"
+  },
+  "dependencies": {
+    "syswide-cas": "^5.3.0"
+  }
+}
